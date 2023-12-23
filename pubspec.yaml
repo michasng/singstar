@@ -7,6 +7,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  record: ^5.0.4
+  pitch_detector_dart: ^0.0.2
 dev_dependencies:
   flutter_test:
     sdk: flutter

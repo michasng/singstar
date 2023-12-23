@@ -11,7 +11,7 @@ class App extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       title: 'Karaokay',
-      home: GameRoute(),
+      home: Scaffold(body: GameRoute()),
     );
   }
 }
